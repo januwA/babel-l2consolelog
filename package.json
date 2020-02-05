@@ -1,0 +1,21 @@
+{
+  "name": "babel-l2consolelog",
+  "version": "0.1.0",
+  "description": "将`l`重写为`console.log`",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel test --out-dir dist"
+  },
+  "keywords": ["Ajanuw", "babel-l2consolelog", "l2consolelog"],
+  "author": "Ajanuw",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/polyfill": "^7.8.3",
+    "babel": "^6.23.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4"
+  }
+}
