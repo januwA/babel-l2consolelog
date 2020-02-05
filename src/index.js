@@ -84,7 +84,9 @@ module.exports = function l2consolelog(babel) {
 
       // 检查函数的参数是否带有 l
       FunctionDeclaration: context.funcParamsHandle,
-      ObjectMethod: context.funcParamsHandle
+      ObjectMethod: context.funcParamsHandle,
+      ArrowFunctionExpression: context.funcParamsHandle,
+      ClassMethod: context.funcParamsHandle
     }
   };
 };

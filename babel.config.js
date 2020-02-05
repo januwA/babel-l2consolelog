@@ -13,5 +13,5 @@ module.exports = {
       }
     ]
   ],
-  plugins: [require("./src/index")]
+  plugins: ["@babel/plugin-proposal-class-properties", require("./src/index")]
 };
